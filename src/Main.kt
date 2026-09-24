@@ -4,8 +4,8 @@ fun main()
     val line = readLine()!!
     val parts = line.split(" ")
     val num1 = parts[0].toDouble()
-    val num2 = parts[1].toDouble()
-    val op = parts[2][0]
+    val num2 = parts[2].toDouble()
+    val op = parts[1][0]
     val result = when (op)
     {
         '+' -> num1 + num2
